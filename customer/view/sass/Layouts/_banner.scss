@@ -1,0 +1,32 @@
+/** BANNER */
+nav.black {
+    background: rgba(0, 0, 0, 0.8);
+}
+.banner-image {
+    background: linear-gradient(#1d2671cc, #c33764cc), url(../../../assets/img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.banner-phone-image {
+    img {
+        width: 800px;
+    }
+}
+.star-rating {
+    a {
+        color: rgba(255, 255, 255, 0.5);
+        margin-right: 10px;
+        &:hover {
+            color: #fff;
+        }
+    }
+}
+.aa {
+    line-height: 26px;
+}
+
+.banner-image {
+    .btn {
+        font-size: 18px;
+    }
+}

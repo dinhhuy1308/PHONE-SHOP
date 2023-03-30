@@ -1,0 +1,30 @@
+/** HEADER */
+.main-color {
+    background: #2c5364;
+}
+
+.gradient-custom {
+    background: linear-gradient(#1d2671cc, #c33764cc);
+}
+
+header{
+    #navbarColor01{
+        a {
+            transition: 0.3s all ease-in-out;
+            &:hover {
+                transform: scale(1.15);
+            }
+        }
+    };
+    .nav1 {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+    };
+    .nav2 {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+    
+}

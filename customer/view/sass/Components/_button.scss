@@ -1,0 +1,88 @@
+//BUTTON
+.btn {
+    position: relative;
+    border: 0;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    color: rgba(255, 255, 255, 0.85);
+    font-family: "Muli";
+    font-size: 14px;
+    line-height: 14px;
+    background-color: #294d5c;
+    cursor: pointer;
+    transition: all 0.15s;
+    &:hover {
+        outline: none;
+        background-color: #5f9db8;
+    }
+    &:focus {
+        outline: 0;
+        box-shadow: none !important;
+    }
+    &:active {
+        transform: scale(0.95);
+    }
+}
+
+/* COUNT BUTTON */
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.qty {
+    .count {
+        color: #000;
+        display: inline-block;
+        vertical-align: top;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 20px;
+        padding: 0 2px;
+        min-width: 35px;
+        text-align: center;
+    }
+    .plus {
+        cursor: pointer;
+        display: inline-block;
+        vertical-align: top;
+        color: white;
+        width: 20px;
+        height: 20px;
+        margin-top: 1px;
+
+        font: 20px/1 Arial, sans-serif;
+        text-align: center;
+        border-radius: 50%;
+        background-color: #284c5b !important;
+        &:hover {
+            background-color: #4166af !important;
+        }
+    }
+    .minus {
+        cursor: pointer;
+        display: inline-block;
+        vertical-align: top;
+        color: white;
+        width: 20px;
+        height: 20px;
+        margin-top: 1px;
+
+        font: 20px/1 Arial, sans-serif;
+        text-align: center;
+        border-radius: 50%;
+        background-clip: padding-box;
+        background-color: #284c5b !important;
+        &:hover {
+            background-color: #4166af !important;
+        }
+    }
+}
+.quantityResult {
+    font-size: 17px;
+    font-weight: 600;
+}
