@@ -1,0 +1,59 @@
+.sp-thongbao {
+  color: red;
+  margin-left: 2px; 
+  display: none;
+}
+
+#desc{
+	display: none;
+}
+
+#content{
+	width: 100%;
+	background: #74ebd5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.myCardHeader, .myCardFooter{
+	background-color: transparent;       
+}
+
+img {
+  width: 100%;
+}
+
+th button {
+  width: 100px;
+  margin: 10px 0;
+}
+
+/* ========================RESPONSIVE================== */
+@media (min-width: 768px) and  (max-width: 1200px) {
+   .photo  {
+    width: 100%;
+    padding: 15px 0 !important;
+  }
+}
+
+@media(max-width: 768px) {
+  .backCamera,
+  .frontCamera {
+    display: none;
+  }
+
+  #tableList {
+    font-size:  15px;
+  }
+ 
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+body {
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.container {
+    margin-top: 200px;
+}
+
+.imgHome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background: rgb(211, 215, 216);
+    border-radius: 75px;
+    margin: 20px auto;
+    transition: all 0.5s;
+}
+a:hover .imgHome {
+    transform: translateY(-20px);
+}
+
+.textHome {
+    display: inline-block;
+    color: rgb(204, 204, 204);
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    transition: all 0.5s;
+}
+
+.textHome::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    display: block;
+    background-color: #f3ce5e;
+    bottom: 0;
+    transition: all 0.5s;
+}
+
+a:hover .textHome {
+    color: #f3ce5e;
+}
+
+a:hover .textHome::after {
+    width: 100%;
+}
+
