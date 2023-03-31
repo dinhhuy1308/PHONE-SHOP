@@ -13,7 +13,7 @@ const renderList = (phoneList) => {
         content += ` <div class="col-lg-3 col-md-6">
       <div class="card text-black h-100">
       <div class="content-overlay"></div>
-        <img src=${ele.img} class="card-img" alt="Phone Image" />
+        <img src=${ele.img} class="card-img" alt="Phone Image" style="align-self: center;"/>
         <div class="content-details fadeIn-top">
         <h3 class ='pb-5'>Specifications</h3>
               <div class="d-flex justify-content-start py-1">
